@@ -46,7 +46,7 @@ li a:hover {
   display: inline-block;
   width: 97.6vw;
   height: 15vh;
-  background-color: #92bbbe;
+  background-color: #aad3d6;
   box-shadow: 10px 5px 50px gray;
 
 }
@@ -87,8 +87,8 @@ li a:hover {
 #container {
   background-color: #1C3738;
   width: 97.6vw;
-  height: 120vh;
-  box-shadow: 12px 4px 20px rgb(180, 180, 180)
+  height: 80vh;
+  box-shadow: 12px 4px 12px 12px rgb(180, 180, 180)
 }
 .pula {
  margin-left: 1vw;

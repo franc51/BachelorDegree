@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="amp.css">
         <script src="index.js"></script> 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
@@ -28,7 +28,7 @@
             <li><a href="ms.html">Monitoring system</a></li>
             <li><a href="cl.html">Cooling system</a></li>
             <li><a href="3d.html">3D printed case</a></li>
-            <li><a href="conclusion.html">Conclusions</a></li>
+            <li><a href="conclusion.html">Results</a></li>
             <li><a href="parts.html">Parts</a></li>
           </ul> 
         
@@ -46,14 +46,20 @@
             In this particular case, the schematics has multiple stages which im going to explain.
 
             Firstly, we have a voltage amplification stage, composed by Q1 + Q2 + Q3, then the intermediate stage, 
-            complementary transistors Q4, 5, 6, and 7 amplify the current and bias the final transistors. Lastly, 
-            transistors Q8, 9, 10 and 11 are power transistors which amplify the current more.
+            complementary transistors Q4, 5, 6, and 7 amplify the current and Q12 is biasing the final transistors.
+            Lastly, transistors Q8, 9, 10 and 11 are power transistors which amplify the current more.
             Q13 and Q14 are current limiter transistors which limit the current passed through the final transistors.
-            
-            
+            This is how a class AB stage is implemented.
+
+            The most important aspect, in order to have a very stable and fully efficient amplifier, is to design 
+            it in such a way that the biasing transistor sits on the same heatsink with the final transistors, in 
+            order to ensure the thermal compensation.
+
+            This amplifier is capable of outputting 100W on an 8 ohm load, having a distorsion factor of only 0.07%.
           </pre>
         </div>
-       
+        <img id="gif" src="images/load.gif">
+        <img id="gif2" src="images/totalharmonic.PNG">
       </div>
 
    
