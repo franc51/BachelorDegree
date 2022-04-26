@@ -2,7 +2,7 @@
   
   text-align: center;
   font-size: large;
-  text-shadow: 2px 3px 10px rgb(0, 0, 0);
+  text-shadow: 2px 3px 5px rgb(0, 0, 0);
   
 }
 .container_presentation {
@@ -13,8 +13,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #274C77;
-  box-shadow: 2px 2px 10px 1px rgb(83, 79, 79);
+  background-image: linear-gradient(180deg, #274C77, rgb(50, 199, 199));
+  box-shadow: 1px 1px 15px 1px rgb(71, 68, 68);
 }
 
 li {
@@ -36,7 +36,7 @@ body {
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #3f6794;
+  background-image: linear-gradient(180deg, #013674, rgb(61, 223, 223));
 }
 
 #wrapper {
@@ -47,7 +47,7 @@ li a:hover {
 #div1 {
   display:grid;
   
-  background-color: #A3CEF1;
+  background-image: linear-gradient(180deg, rgb(33, 145, 145) ,#64acff );
   
 }
 #linkuri {
@@ -61,8 +61,8 @@ li a:hover {
   width: 100vw;
   height: 13vh;
   margin-top: 5vh;
-  background-color: #E7ECEF;
-  box-shadow: 2px 5px 30px gray;
+  background-color: #548cac;
+  box-shadow: 2px 5px 30px rgb(0, 0, 0);
 }
 
 #titlu {
@@ -88,12 +88,12 @@ li a:hover {
   margin-left: 18vw;
 }
 #container {
-  background-color: #c5dbec;
+  background-color: #ffffff;
   height: 40vh;
   width: 40vw;
   box-shadow: 2px 2px 10px 3px rgb(180, 180, 180);
   text-shadow: 2px 1px 2px  rgb(0, 0, 0);
-  margin-top: 4vh;
+  margin-top: 6vh;
   margin-left: 30vw;
   margin-right: 55vw;
   
@@ -112,10 +112,10 @@ li a:hover {
 
 #footer{
   position: relative;
-  background-color: #274C77;
+  background-image: linear-gradient(180deg, #274C77, rgb(50, 199, 199));
   height: 16vh;
   margin-top: 15vh;
-  box-shadow: 15px 40px 10px 40px rgb(0, 0, 0);
+  box-shadow: 5px 5px 20px 10px rgb(113, 122, 113);
  
 }
 #jos {
