@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
+  background-image: linear-gradient(to bottom, #0041c2, #689bff);
   box-shadow: 5px 5px 20px 1px rgb(113, 122, 113);
 }
 
@@ -34,7 +34,8 @@ body {
 }
 
 li a:hover {
-  background-image: linear-gradient(to bottom, #00577c, #b94d4d) ;
+  background-image: linear-gradient(to bottom, #0055ff, #689bff);
+  font-size: 1.02em;
 }
 
 #wrapper {
@@ -83,7 +84,6 @@ li a:hover {
 }
 #copyright {
   position: absolute;
-  margin-left: 38.6vw;
 }
 #container {
   background-color: #D9E5D6 ;
@@ -111,7 +111,7 @@ li a:hover {
 
 #footer{
   position: relative;
-  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
+  background-image: linear-gradient(to bottom, #0041c2, #689bff);
   height: 10vh;
   margin-top: 22vh;
   box-shadow: 5px 5px 20px 10px rgb(113, 122, 113);
@@ -175,7 +175,7 @@ html { font-size: 65%; }
 body { font-size: 1em;}
 li a { font-size: 100%; }
 #linkuri {margin-left: 41vw;}
-#copyright {margin-left: 38.6vw;}
+#copyright {margin-left: 10vw;}
 
 
 @media (min-width: 400px) {
@@ -183,12 +183,14 @@ li a { font-size: 100%; }
     li a { font-size: 50%; }
     li a { padding: 7px 20px;}
     #linkuri{margin-left: 29vw;}
-    #copyright {margin-left: 27vw;]
+    #copyright {margin-left: 5vw;}
+    li a:hover {font-size: 50%;}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     html { font-size: 100%; }
     li a { font-size: 100%; }
     li a {padding: 18px 28px;}
-    #copyright {margin-left: 38.6vw;}
+    #copyright {margin-left: 28vw;}
     #linkuri {margin-left: 41vw;}
+    li a:hover {font-size: 100%;}
   }
