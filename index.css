@@ -178,7 +178,7 @@ li a { font-size: 100%; }
 #copyright {margin-left: 10vw;}
 
 
-@media (min-width: 400px) {
+@media (min-width: 1px) {
     html { font-size: 60%; }
     li a { font-size: 50%; }
     li a { padding: 7px 20px;}
