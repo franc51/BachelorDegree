@@ -197,8 +197,8 @@ li a { font-size: 100%; }
   #linkuri{margin-left: 29vw;}
   #copyright {margin-left: 1vw;}
   li a:hover {font-size: 50%;}
-  #gif {scale: 30%; margin-left: 5vw;}
-  #container {height: 190vh;}
+  #gif {scale: 20%; margin-left: 4vw;}
+  #container {height: 150vh;}
 }
 @media (min-width: 1200px) {
   html { font-size: 100%; }
