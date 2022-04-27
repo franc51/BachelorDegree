@@ -104,7 +104,6 @@ li a:hover {
   margin-top: 6vh;
   margin-left: 10vw;
   margin-right: 55vw;
-  
   border-color: #9dafc4;
 }
 
@@ -191,14 +190,15 @@ li a { font-size: 100%; }
 #copyright {margin-left: 38.6vw;}
 
 
-@media (min-width: 400px) {
+@media (min-width: 1px) {
   html { font-size: 60%; }
   li a { font-size: 50%; }
   li a { padding: 7px 20px;}
   #linkuri{margin-left: 29vw;}
-  #copyright {margin-left: 5vw;}
+  #copyright {margin-left: 1vw;}
   li a:hover {font-size: 50%;}
   #gif {scale: 60%; margin-left: 5vw;}
+  #container {height: 213vh;}
 }
 @media (min-width: 1200px) {
   html { font-size: 100%; }
@@ -208,6 +208,7 @@ li a { font-size: 100%; }
   #linkuri {margin-left: 41vw;}
   li a:hover {font-size: 100%;}
   #gif {scale: 100%; margin-left: 20vw;}
+  #container{height: 283vh;}
 }
 @media (min-width: 1800px) {
   html { font-size: 120%; }
