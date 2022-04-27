@@ -193,12 +193,12 @@ li a { font-size: 100%; }
 @media (max-width: 1200px) {
   html { font-size: 60%; }
   li a { font-size: 50%; }
-  li a { padding: 7px 20px;}
-  #linkuri{margin-left: 29vw;}
+  li a { padding: 7px 15px;}
+  #linkuri{margin-left: 29.5vw;}
   #copyright {margin-left: 1vw;}
   li a:hover {font-size: 50%;}
-  #gif {width: 10m; height: 15em; margin-left: 4vw;}
-  #container {height: 110vh;}
+  #gif {width: 15m; height: 15em; margin-left: 2vw;}
+  #container {height: 125vh;}
 }
 @media (min-width: 1200px) {
   html { font-size: 100%; }
