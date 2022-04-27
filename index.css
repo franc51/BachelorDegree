@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #00577c, #57bcdd) ;
+  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
   box-shadow: 5px 5px 20px 1px rgb(113, 122, 113);
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 li a:hover {
-  background-image: linear-gradient(to bottom, #1f789e, #57bcdd) ;
+  background-image: linear-gradient(to bottom, #00577c, #b94d4d) ;
 }
 
 #wrapper {
@@ -111,7 +111,7 @@ li a:hover {
 
 #footer{
   position: relative;
-  background-image: linear-gradient(to bottom, #00577c, #00A7E1) ;
+  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
   height: 10vh;
   margin-top: 22vh;
   box-shadow: 5px 5px 20px 10px rgb(113, 122, 113);
@@ -177,24 +177,14 @@ li a { font-size: 100%; }
 #linkuri {margin-left: 41vw;}
 #copyright {margin-left: 38.6vw;}
 
-@media (max-width: 300px) {
-    html { font-size: 40%; }
-    li a { font-size: 20%; }
-    ul {font-size: 20% ;}
-}
 
 @media (min-width: 400px) {
     html { font-size: 60%; }
-    li a { font-size: 40%; }
+    li a { font-size: 50%; }
     li a { padding: 15px 20px;}
     #linkuri{margin-left: 33vw;}
-    #copyright {margin-left: 32vw;]
+    #copyright {margin-left: 30.5vw;]
 }
-@media (min-width: 700px) {
-    html { font-size: 80%; }
-    li a { font-size: 80%; }
-}
-
 @media (min-width: 1200px) {
     html { font-size: 100%; }
     li a { font-size: 100%; }
