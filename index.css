@@ -186,11 +186,19 @@ li a { font-size: 100%; }
     #copyright {margin-left: 5vw;}
     li a:hover {font-size: 50%;}
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     html { font-size: 100%; }
     li a { font-size: 100%; }
     li a {padding: 18px 28px;}
     #copyright {margin-left: 28vw;}
     #linkuri {margin-left: 41vw;}
     li a:hover {font-size: 100%;}
+  }
+  @media (min-width: 1800px) {
+    html { font-size: 120%; }
+    li a { font-size: 120%; }
+    li a {padding: 28px 38px;}
+    #copyright {margin-left: 38vw;}
+    #linkuri {margin-left: 51vw;}
+    li a:hover {font-size: 120%;}
   }

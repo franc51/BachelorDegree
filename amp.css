@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
+  background-image: linear-gradient(to bottom, #0041c2, #689bff);
   box-shadow: 5px 5px 20px 1px rgb(113, 122, 113);
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 li a:hover {
-  background-image: linear-gradient(to bottom, #00577c, #b94d4d) ;
+  background-image: linear-gradient(to bottom, #0055ff, #689bff);
   font-size: 1.35vw;
 }
 
@@ -73,7 +73,7 @@ li a:hover {
 #subtitlu {
   text-align: center;
   color: white;
-  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
+  background-image: linear-gradient(to bottom, #0041c2, #689bff);
   text-shadow: 2px 1px 4px  #000000;
   margin-left: 40vw;
   margin-right: 40vw;
@@ -121,7 +121,7 @@ li a:hover {
 
 #footer{
   position: relative;
-  background-image: linear-gradient(to bottom, #00577c, #a06f6f) ;
+  background-image: linear-gradient(to bottom, #0041c2, #689bff);
   height: 10vh;
   margin-top: 10vh;
   box-shadow: 5px 5px 20px 10px rgb(113, 122, 113);
@@ -160,7 +160,6 @@ li a:hover {
   border-radius: 10px;
   margin-left: 20vw;
   margin-top: 2vh;
-
   background-color: #1C3738;
   box-shadow: 2px 2px 10px 8px  gray;
 }
@@ -191,28 +190,31 @@ li a { font-size: 100%; }
 #linkuri {margin-left: 41vw;}
 #copyright {margin-left: 38.6vw;}
 
-@media (max-width: 300px) {
-    html { font-size: 40%; }
-    li a { font-size: 20%; }
-    ul {font-size: 20% ;}
-}
 
 @media (min-width: 400px) {
-    html { font-size: 60%; }
-    li a { font-size: 40%; }
-    li a { padding: 15px 20px;}
-    #linkuri{margin-left: 33vw;}
-    #copyright {margin-left: 32vw;]
+  html { font-size: 60%; }
+  li a { font-size: 50%; }
+  li a { padding: 7px 20px;}
+  #linkuri{margin-left: 29vw;}
+  #copyright {margin-left: 5vw;}
+  li a:hover {font-size: 50%;}
+  #gif {scale: 60%; margin-left: 5vw;}
 }
-@media (min-width: 700px) {
-    html { font-size: 80%; }
-    li a { font-size: 80%; }
-}
-
 @media (min-width: 1200px) {
-    html { font-size: 100%; }
-    li a { font-size: 100%; }
-    li a {padding: 18px 28px;}
-    #copyright {margin-left: 38.6vw;}
-    #linkuri {margin-left: 41vw;}
-  }
+  html { font-size: 100%; }
+  li a { font-size: 100%; }
+  li a {padding: 18px 28px;}
+  #copyright {margin-left: 28vw;}
+  #linkuri {margin-left: 41vw;}
+  li a:hover {font-size: 100%;}
+  #gif {scale: 100%; margin-left: 20vw;}
+}
+@media (min-width: 1800px) {
+  html { font-size: 120%; }
+  li a { font-size: 120%; }
+  li a {padding: 28px 38px;}
+  #copyright {margin-left: 38vw;}
+  #linkuri {margin-left: 51vw;}
+  li a:hover {font-size: 120%;}
+  #gif {scale: 120%;}
+}
