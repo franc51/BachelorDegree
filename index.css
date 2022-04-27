@@ -181,9 +181,9 @@ li a { font-size: 100%; }
 @media (min-width: 400px) {
     html { font-size: 60%; }
     li a { font-size: 50%; }
-    li a { padding: 15px 20px;}
-    #linkuri{margin-left: 33vw;}
-    #copyright {margin-left: 30.5vw;]
+    li a { padding: 7px 20px;}
+    #linkuri{margin-left: 29vw;}
+    #copyright {margin-left: 27vw;]
 }
 @media (min-width: 1200px) {
     html { font-size: 100%; }
