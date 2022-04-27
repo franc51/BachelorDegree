@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #00577c, #00A7E1) ;
+  background-image: linear-gradient(to bottom, #00577c, #57bcdd) ;
   box-shadow: 5px 5px 20px 1px rgb(113, 122, 113);
 }
 
@@ -27,16 +27,14 @@ li a {
   text-align: center;
   padding: 18px 28px;
   text-decoration: none;
-  
 }
-
 body {
   background-color: #ffffff;
   margin: 0;
 }
 
 li a:hover {
-  background-image: linear-gradient(to bottom, #277ea3, #00A7E1) ;
+  background-image: linear-gradient(to bottom, #1f789e, #57bcdd) ;
   font-size: 1.35vw;
 }
 
@@ -72,6 +70,8 @@ li a:hover {
   text-align: center;
   margin-top: 2svh;
 }
+
+}
 #designed {
   font-size:x-large;
   color: #fdffff;
@@ -89,28 +89,20 @@ li a:hover {
 #container {
   background-color: #D9E5D6 ;
   height: 40vh;
-  width: 40vw;
+  width: 60vw;
   box-shadow: 2px 2px 10px 3px rgb(139, 134, 134);
   text-shadow: 2px 1px 2px  rgb(201, 190, 190);
   margin-top: 6vh;
-  margin-left: 30vw;
+  margin-left: 20vw;
   margin-right: 55vw;
   
   border-color: #9dafc4;
 }
-#container:hover {
-  background-color: #D9E5D6 ;
-  height: 40vh;
-  width: 40vw;
-  box-shadow: 2px 2px 10px 3px rgb(65, 59, 59);
-  text-shadow: 2px 1px 20px  rgb(75, 70, 70);
-  
-  border-color: #9dafc4;
-}
+
 .pula {
  margin-left: 1vw;
- width: 1.8vw;
- height: 4vh;
+ width: 22px;
+ height: 22px;
 }
 .pula:hover{
   background-image: linear-gradient(to bottom, rgb(0, 0, 201) , rgb(110, 255, 255));
@@ -136,9 +128,12 @@ li a:hover {
 #definitie {
   font-size: larger;
   padding-top: 3vh;
-  margin-left: 2vw;
+  margin-left: 12vw;
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 1px #fff5f5;
+}
+#p2{
+  margin-left: 2vw;
 }
 #role {
   margin-top: 7vh;
@@ -175,4 +170,23 @@ li a:hover {
 #descriere {
 font-size: xx-large;
 color: white;
+}
+
+html { font-size: 65%; }
+body { font-size: 1em;}
+
+@media (max-width: 300px) {
+    html { font-size: 40%; }
+}
+
+@media (min-width: 500px) {
+    html { font-size: 60%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 100%; }
 }
