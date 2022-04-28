@@ -200,24 +200,26 @@ li a { font-size: 100%; }
 @media (max-width: 1200px) {
   html { font-size: 60%; }
   li a { font-size: 50%; }
-  li a { padding: 7px 15px;}
-  #linkuri{margin-left: 29.5vw;}
-  #copyright {margin-left: 1vw;}
+  li a { padding: 5px 6px;}
+  #linkuri{margin-left: 29vw;}
+  #copyright {margin-left: 0.5vw; font-size: 7px;}
   li a:hover {font-size: 50%;}
   #gif {width: 15m; height: 15em; margin-left: 2vw;}
   #container {height: 180vh;}
   #subtitlu {margin-left: 30vw; margin-right: 30vw; ;}
 }
+
 @media (min-width: 1200px) {
   html { font-size: 100%; }
   li a { font-size: 100%; }
   li a {padding: 18px 28px;}
-  #copyright {margin-left: 28vw;}
+  #copyright {margin-left: 28vw; font-size: 100%}
   #linkuri {margin-left: 41vw;}
   li a:hover {font-size: 100%;}
   #gif {scale: 100%; margin-left: 20vw;}
   #container{height: 283vh;}
 }
+
 @media (min-width: 1800px) {
   html { font-size: 120%; }
   li a { font-size: 120%; }

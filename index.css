@@ -178,19 +178,20 @@ li a { font-size: 100%; }
 #copyright {margin-left: 10vw;}
 
 
-@media (min-width: 1px) {
+@media (max-width: 1200px) {
     html { font-size: 60%; }
     li a { font-size: 50%; }
-    li a { padding: 5px 5px;}
+    li a { padding: 5px 6px;}
     #linkuri{margin-left: 29vw;}
-    #copyright {margin-left: 1vw; font-size: 9px;}
+    #copyright {margin-left: 0.5vw; font-size: 7px;}
     li a:hover {font-size: 50%;}
+    #definitie {margin-left: 7vw;}
 }
 @media (min-width: 1200px) {
     html { font-size: 100%; }
     li a { font-size: 100%; }
     li a {padding: 18px 28px;}
-    #copyright {margin-left: 28vw;}
+    #copyright {margin-left: 28vw; font-size: 100%}
     #linkuri {margin-left: 41vw;}
     li a:hover {font-size: 100%;}
   }
@@ -198,7 +199,7 @@ li a { font-size: 100%; }
     html { font-size: 120%; }
     li a { font-size: 120%; }
     li a {padding: 28px 38px;}
-    #copyright {margin-left: 38vw;}
+    #copyright {margin-left: 38vw; font-size: 120%;}
     #linkuri {margin-left: 51vw;}
     li a:hover {font-size: 120%;}
   }
