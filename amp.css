@@ -113,7 +113,7 @@ li a:hover {
  height: 22px;
 }
 .pula:hover{
-  background-image: linear-gradient(to bottom, rgb(0, 0, 201) , rgb(110, 255, 255));
+  background-image: linear-gradient(to bottom, #0036a3, #ffffff);
   border-radius: 7px;
   box-shadow: #002d61;
 }
@@ -146,6 +146,14 @@ li a:hover {
 }
 #p3 {
   margin-left: 2vw;
+  
+}
+#p4 {
+  margin-left: 2vw;
+  background-color: #a4c3ff;
+}
+#p4:hover{
+  box-shadow: 2px 2px 10px 5px  gray;
 }
 #role {
   margin-top: 7vh;
@@ -159,7 +167,6 @@ li a:hover {
   border-radius: 10px;
   margin-left: 20vw;
   margin-top: 2vh;
-  background-color: #1C3738;
   box-shadow: 2px 2px 10px 8px  gray;
 }
 #gif:hover{
@@ -198,7 +205,8 @@ li a { font-size: 100%; }
   #copyright {margin-left: 1vw;}
   li a:hover {font-size: 50%;}
   #gif {width: 15m; height: 15em; margin-left: 2vw;}
-  #container {height: 125vh;}
+  #container {height: 180vh;}
+  #subtitlu {margin-left: 30vw; margin-right: 30vw; ;}
 }
 @media (min-width: 1200px) {
   html { font-size: 100%; }
